@@ -1,0 +1,204 @@
+.wrapper{
+    min-height: 100vh;
+    position: relative;
+}
+.wrapper.get_start{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+button{
+    &:focus{
+        outline: none;
+    }
+}
+input{
+    &:focus{
+        outline: none; 
+    }
+}
+p.error_message{
+    position: absolute;
+    font-size: 14px;
+    color: red;
+    font-style: italic;
+    bottom: -25px;
+    margin: 0;
+}
+.center_content{
+    .row{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.btn_orange{
+    background: #f78719;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 9px 43px;
+    display: inline-block;
+    text-decoration: none;
+}
+h2.title{
+    color: #000;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.description{
+    max-width: 39%;
+    text-align: center;
+}
+.business_name{
+    form{
+        width: 50%;
+        margin-top: 80px;
+        position: relative;
+
+        .next_step{
+            background: url("../../assets/img/icons/arrow_icon.png")no-repeat center ;
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: 0;
+            position: absolute;
+            bottom: 10px;
+            right: -11px;
+        }
+        .activeBtn{
+            cursor: pointer;
+        }
+
+        input{
+            border: 0;
+            border-bottom: 1px solid #c3c3c3;
+            width: 100%;
+            padding: 7px 10px;
+            font-size: 40px;
+            color: #f99228;
+                &::-webkit-input-placeholder {
+                    color:#c3c3c3;
+                }
+                &::-moz-placeholder{
+                    color:#c3c3c3;
+                }
+                &:-ms-input-placeholder{
+                    color:#c3c3c3;
+                }    
+        }  
+    }
+    
+}
+.title_block{
+    margin: 35px 0px;
+    .back_arrow{
+        background: url("../../assets/img/icons/arrow_icon.png")no-repeat center ;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        -moz-transform: rotate(180deg);
+        transform: rotate(180deg);
+        vertical-align: top;
+        margin-left: -45px;
+        padding-top: 9px;
+    }
+    h2.title{
+        font-size: 30px;
+        display: inline-block;
+        font-size: 30px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 0;
+        margin-left: 15px;
+    }
+    
+}
+.radio_form{
+    .radion_block{
+        margin-bottom: 25px;
+    }
+
+    .custom-radio {
+        position: relative;
+        margin-bottom: 10px;
+        input{
+            opacity: 0;
+        }
+        input:checked + label{
+            &:after{
+                -moz-transition: all .4s;
+                transition: all .4s;
+                background: #f98d1e;
+                border: 1px solid #f98d1e;
+            }
+        }
+
+        label{
+            color: #656565;
+            padding-left: 10px;
+
+            &:after{
+                content: " ";
+                position: absolute;
+                width: 8px;
+                height: 8px;
+                border: 1px solid #656565;
+                border-radius: 50%;
+                left: 0;
+                top: 5px;
+                -moz-transition: all .4s;
+                transition: all .4s;
+            }
+        }
+    }
+
+    .next_step{
+        background: #f78719;
+        color: #fff;
+        font-size: 16px;
+        border-radius: 5px;
+        padding: 9px 40px;
+        display: inline-block;
+        text-decoration: none;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .next_step:disabled{
+        opacity: .8;
+        cursor: default;
+    }
+    
+    h2.title{
+        margin-bottom: 20px;
+    }
+}
+
+.wrapper.prod_or_serv{
+    .title_block{
+
+        input{
+            border: 0;
+            border-bottom: 1px solid #c3c3c3;
+            width: 100%;
+            padding: 7px 10px;
+            font-size: 22px;
+            color: #f99228;
+            max-width: 50%;
+            display: block;
+            margin-top: 10px;
+                &::-webkit-input-placeholder {
+                    color:#c3c3c3;
+                }
+                &::-moz-placeholder{
+                    color:#c3c3c3;
+                }
+                &:-ms-input-placeholder{
+                    color:#c3c3c3;
+                }    
+        }
+    }
+}

@@ -1,0 +1,112 @@
+<app-header-steps></app-header-steps>
+<div class="wrapper">
+    <div class="row">
+        <div class="col-xs-12 title_block">
+            <a routerLink="/for-whom" class="back_arrow"></a>
+            <h2 class="title">What holiday?</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <form [formGroup]='formStepHoliday' class="radio_form">
+                <div class="radion_block">
+                    <div class="custom-control custom-radio">
+                        <input 
+                        id="christmas" 
+                        type="radio" 
+                        class="custom-control-input" 
+                        value="christmas" 
+                        name="whatHoliday" 
+                        formControlName="whatHoliday"
+                        >
+                        <label class="custom-control-label" for="christmas">Christmas</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input 
+                        id="new_year" 
+                        type="radio" 
+                        class="custom-control-input" 
+                        value="new_year" 
+                        name="whatHoliday" 
+                        formControlName="whatHoliday"
+    
+                        >
+                        <label class="custom-control-label" for="new_year">New Year</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input 
+                            id="valentines_day" 
+                            type="radio" 
+                            class="custom-control-input" 
+                            value="valentines_day" 
+                            name="whatHoliday" 
+                            formControlName="whatHoliday"
+                        >
+                        <label class="custom-control-label" for="valentines_day">Valentine's Day</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input 
+                            id="mothers_day" 
+                            type="radio" 
+                            class="custom-control-input" 
+                            value="mothers_day" 
+                            name="whatHoliday" 
+                            formControlName="whatHoliday"
+                        >
+                        <label class="custom-control-label" for="mothers_day">Mother's Day</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input 
+                            id="march" 
+                            type="radio" 
+                            class="custom-control-input" 
+                            value="march" 
+                            name="whatHoliday" 
+                            formControlName="whatHoliday"
+                        >
+                        <label class="custom-control-label" for="march">March 8</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input 
+                            id="day_strength" 
+                            type="radio" 
+                            class="custom-control-input" 
+                            value="day_strength" 
+                            name="whatHoliday" 
+                            formControlName="whatHoliday"
+                        >
+                        <label class="custom-control-label" for="day_strength">Day of strength</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input 
+                            id="birthday" 
+                            type="radio" 
+                            class="custom-control-input" 
+                            value="birthday" 
+                            name="whatHoliday" 
+                            formControlName="whatHoliday"
+                        >
+                        <label class="custom-control-label" for="birthday">Birthday</label>
+                    </div>
+                   
+                </div>
+                <button 
+                    routerLink="/price-step" 
+                    type="submit" 
+                    [disabled]="form.whatHoliday.errors?.required"
+                    (click)="getFormValue();"
+                    class="next_step"
+                    >
+                    Next
+                </button>
+                <mat-progress-bar
+                    class="progress_bar"
+                    [color]="color"
+                    [mode]="mode"
+                    [value]="value"
+                    [bufferValue]="bufferValue">
+                </mat-progress-bar>
+            </form>
+        </div>
+    </div>
+</div>

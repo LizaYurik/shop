@@ -1,0 +1,316 @@
+[
+    {
+        "id" : "christmas",
+        "title": "for Christmas",
+        "class": "for_christmas"
+    },
+    {
+        "id" : "new_year",
+        "title": "for New Yaer",
+        "class": "for_new_year"
+    },
+    {
+        "id" : "valentines_day",
+        "title": "for Valantine's Day",
+        "class" : "for_valentines_day"
+    },
+
+    {
+        "id" : "mothers_day",
+        "title": "for Mother's Day",
+        "class" : "for_mothers_day"
+    },
+
+    {
+        "id" : "march",
+        "title": "for March 8",
+        "class" : "for_march"
+    },
+
+    {
+        "id" : "day_strength",
+        "title": "for Day Strength",
+        "class" : "for_day_strength"
+    },
+    {
+        "id" : "birthday",
+        "title": "for Birthday",
+        "class" : "for_birthday"
+    },
+
+    
+
+    {
+        "for" : "man",
+        "holiday" : "christmas",
+        "price" : "100-200",
+        "title" : "Man christmas 100-200" 
+    },
+    {
+        "for" : "man",
+        "holiday" : "new_year",
+        "price" : "100-200",
+        "title" : "Man new_year 100-200" 
+    },
+    {
+        "for" : "man",
+        "holiday" : "valentines_day",
+        "price" : "100-200",
+        "title" : "Man valentines_day 100-200" 
+    },
+    {
+        "for" : "man",
+        "holiday" : "mothers_day",
+        "price" : "100-200",
+        "title" : "Man mothers_day 100-200" 
+    },
+    {
+        "for" : "man",
+        "holiday" : "march",
+        "price" : "100-200",
+        "title" : "Man mothers_day 100-200" 
+    },
+    {
+        "for" : "man",
+        "holiday" : "day_strength",
+        "price" : "100-200",
+        "title" : "Man mothers_day 100-200" 
+    },
+    {
+        "for" : "man",
+        "holiday" : "birthday",
+        "price" : "100-200",
+        "title" : "Man mothers_day 100-200" 
+    },
+    
+
+
+
+    {
+        "for" : "man",
+        "holiday" : "christmas",
+        "price" : "300-400",
+        "title" : "Man christmas 300-400" 
+    },
+    {
+        "for" : "man",
+        "holiday" : "christmas",
+        "price" : "300-400",
+        "title" : "Man christmas 300-400 view2" 
+    },
+    {
+        "for" : "man",
+        "holiday" : "new_year",
+        "price" : "300-400",
+        "title" : "Man new_year 300-400" 
+    },
+    {
+        "for" : "man",
+        "holiday" : "valentines_day",
+        "price" : "300-400",
+        "title" : "Man valentines_day 300-400" 
+    },
+    {
+        "for" : "man",
+        "holiday" : "mothers_day",
+        "price" : "300-400",
+        "title" : "Man mothers_day 300-400" 
+    },
+    {
+        "for" : "man",
+        "holiday" : "march",
+        "price" : "300-400",
+        "title" : "Man mothers_day 300-400" 
+    },
+    {
+        "for" : "man",
+        "holiday" : "day_strength",
+        "price" : "300-400",
+        "title" : "Man mothers_day 300-400" 
+    },
+    {
+        "for" : "man",
+        "holiday" : "birthday",
+        "price" : "300-400",
+        "title" : "Man mothers_day 300-400" 
+    },
+    
+
+
+    {
+        "for" : "woman",
+        "holiday" : "valentines_day",
+        "title" : "TABLE LAMP WITH 3D EFFECT (BEAR) | 3D night light",
+        "description" : "3D touch lamp with the effect of three-dimensional image will be a great addition to any interior. 7 different colors in each lamp - 7 mood options",
+        "price" : "300-400",
+        "curenPrice": "255",
+        "imgUrl" : "./assets/img/product/2132172654_nastolnyj-svetilnik-s.jpg",
+        "imgAtr": "TABLE LAMP WITH 3D EFFEC"
+    },
+    {
+        "for" : "woman",
+        "holiday" : "valentines_day",
+        "title" : "Heart of the Ocean Necklace",
+        "description" : "Best Gift for Women - Heart of the Ocean Necklace",
+        "price" : "300-400",
+        "curenPrice": "299",
+        "imgUrl" : "./assets/img/product/54418307_w640_h640_ozherele-serdtse-okeana.400x600.jpg",
+        "imgAtr": "Best Gift for Women"
+    },
+    {
+        "for" : "woman",
+        "holiday" : "valentines_day",
+        "title" : "Stylish boxing for women • PREMIUM",
+        "description" : "The set consists of: 1. Warm cashmere scarf, pale pink. 2. Aroma Orner candles, with natural French oils",
+        "price" : "300-400",
+        "curenPrice": "350",
+        "imgUrl" : "./assets/img/product/IMG_3796.jpg",
+        "imgAtr": "Stylish boxing for women"
+    },
+    {
+        "for" : "woman",
+        "holiday" : "valentines_day",
+        "title" : "Miniature element",
+        "description" : "Miniature element",
+        "price" : "300-400",
+        "curenPrice": "350",
+        "imgUrl" : "./assets/img/product/782167cz-namistina-782167cz-1181x1181.jpg",
+        "imgAtr": "Miniature element"
+    },
+    {
+        "for" : "woman",
+        "holiday" : "valentines_day",
+        "title" : "Salt lamp 'Heart' 3-4 kg",
+        "description" : "The salt lamp is a natural air ionizer. By installing it at the child’s bed, you will improve his sleep by maintaining a clean and healthy atmosphere in the room",
+        "price" : "300-400",
+        "curenPrice": "325",
+        "imgUrl" : "./assets/img/product/IMG_3795.jpg",
+        "imgAtr": "Salt lamp 'Heart' 3-4 kg"
+    },
+    {
+        "for" : "woman",
+        "holiday" : "valentines_day",
+        "title" : "Salt lamp 'Cat - romantic'",
+        "description" : "The soothing light of the lamps helps relieve irritation and overcome insomnia. He will help office staff to increase attentiveness and relieve fatigue.",
+        "price" : "300-400",
+        "curenPrice": "305",
+        "imgUrl" : "./assets/img/product/20180723_130655.jpg",
+        "imgAtr": "Salt lamp 'Cat - romantic'"
+    },
+    {
+        "for" : "woman",
+        "holiday" : "valentines_day",
+        "title" : "Checkbook of desires FOR HER",
+        "description" : "Includes such desires: 1. An evening with friends 2. One-day full submission 3. One purchase that I have long wanted.",
+        "price" : "100-200",
+        "curenPrice": "135",
+        "imgUrl" : "./assets/img/product/checkbook_for_her__1.jpg",
+        "imgAtr": "Checkbook of desires FOR HER"
+    },
+    {
+        "for" : "woman",
+        "holiday" : "valentines_day",
+        "title" : "Casket for jewelry on a fastener 'Unicorn pink'",
+        "description" : " Dimensions: 15cm x 10cm x 4.5cm Material: Faux Leather",
+        "price" : "100-200",
+        "curenPrice": "195",
+        "imgUrl" : "./assets/img/product/Nc9e00e490a7311e980dce0db550fed46.1560xw.jpg",
+        "imgAtr": "Casket for jewelry on a fastener 'Unicorn pink'"
+    },
+    {
+        "for" : "woman",
+        "holiday" : "valentines_day",
+        "title" : "Slippers house 'Tsar Pig' (brown)",
+        "description" : "A nice gift on New Year's Eve.",
+        "price" : "100-200",
+        "curenPrice": "105",
+        "imgUrl" : "./assets/img/product/8.jpg",
+        "imgAtr": "Slippers house 'Tsar Pig' (brown)"
+    },
+    {
+        "for" : "woman",
+        "holiday" : "valentines_day",
+        "title" : "Wooden stand for cosmetics 'Makeup'",
+        "description" : "Dimensions: 45 x 14 x 11 cm  Material: tung oil impregnated walnut wood Suitable for: standard tablets",
+        "price" : "500-600",
+        "curenPrice": "600",
+        "imgUrl" : "./assets/img/product/DSC_6853VERGOR.jpg",
+        "imgAtr": "Wooden stand for cosmetics 'Makeup'"
+    },
+    {
+        "for" : "woman",
+        "holiday" : "valentines_day",
+        "title" : "3D lamp, lotus night light",
+        "description" : "Dimensions: 25 cm x 12.2 cm x 8.7 cm Power Consumption - 5 V 10 LED bulbs",
+        "price" : "500-600",
+        "curenPrice": "560",
+        "imgUrl" : "./assets/img/product/Purple_Lotus_1024x1024_0c1cb4e8-b69d-4f7d-9523-6922b5644a01_2048x2048.jpg",
+        "imgAtr": "3D lamp, lotus night light"
+    },
+
+   
+    
+
+    {
+        "for" : "woman",
+        "holiday" : "christmas",
+        "title" : "Christmas music box with a Christmas melody 'Merry Christmas'",
+        "description" : " Music Box Melody: Christmas and New Year carol originally from England 'We wish you a Merry Christmas and a happy New Year ...' Size: 7.5x6.3x4.5cm",
+        "price" : "300-400",
+        "curenPrice": "320",
+        "imgUrl" : "./assets/img/product/shkatulka_musykalnaja_MeryChristmas2_1.jpg",
+        "imgAtr": "Christmas music box with a Christmas melody 'Merry Christmas'"
+    },
+    {
+        "for" : "woman",
+        "holiday" : "christmas",
+        "title" : "Glass candlestick 'Bird' (medium)",
+        "description" : "Material: varnished colored glass Size: 15cm Color: gray, pink",
+        "price" : "300-400",
+        "curenPrice": "320",
+        "imgUrl" : "./assets/img/product/IMG_3792.jpg",
+        "imgAtr": "Glass candlestick 'Bird' (medium)"
+    },
+    {
+        "for" : "woman",
+        "holiday" : "christmas",
+        "title" : "Mug 'Cat in the Crown'",
+        "description" : "Material: glass ceramic, natural paints Volume: 400 ml",
+        "price" : "100-200",
+        "curenPrice": "105",
+        "imgUrl" : "./assets/img/product/IMG_3794.jpg",
+        "imgAtr": "Mug 'Cat in the Crown''"
+    },
+    {
+        "for" : "woman",
+        "holiday" : "christmas",
+        "title" : "Pug mug (Where's the candy?)",
+        "description" : "Material: glass ceramic, natural paints Volume: 400 ml",
+        "price" : "100-200",
+        "curenPrice": "105",
+        "imgUrl" : "./assets/img/product/IMG_3791.jpg",
+        "imgAtr": "Pug mug (Where's the candy?)'"
+    },
+    {
+        "for" : "woman",
+        "holiday" : "christmas",
+        "title" : "Glider I have a plan, black",
+        "description" : "Size: 17.5 x 22 cm Number of Pages: 256 Paper: Arctic Paper 100 grams",
+        "price" : "500-600",
+        "curenPrice": "545",
+        "imgUrl" : "./assets/img/product/20180723_130654.jpg",
+        "imgAtr": "Glider I have a plan, black"
+    },
+    {
+        "for" : "woman",
+        "holiday" : "christmas",
+        "title" : "Caniam EF-S28-135mm Lens Mug with Stand Cover",
+        "description" : "Size: 17 x 10 cm Volume: 400 ml The lid closes tightly",
+        "price" : "500-600",
+        "curenPrice": "550",
+        "imgUrl" : "./assets/img/product/IMG_32794.jpg",
+        "imgAtr": "Caniam EF-S28-135mm Lens Mug with Stand Cover"
+    }
+    
+    
+]

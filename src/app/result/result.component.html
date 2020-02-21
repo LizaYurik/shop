@@ -1,0 +1,41 @@
+<app-header-result></app-header-result>
+<div class="result_page {{holiday.class}}" *ngFor="let holiday of infoAboutHoliday">
+    <div class="section">
+        <div class="banner">
+            <div class="wrapper">
+                <h2 class="title">
+                    You choose gift 
+                    <span>
+                        for a {{forWhom}}
+                    </span>
+                    <span *ngFor="let holiday of infoAboutHoliday">{{holiday.title}} </span>
+                    <span>which cost {{priceStep}}</span>
+                </h2>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="all_box">
+                <div class="box" *ngFor="let item of info">
+                    <mat-card>
+                        <mat-card-title><span>{{item.title}}</span></mat-card-title>
+                        <div class="img-block">
+                            <img mat-card-image src="{{item.imgUrl}}" title="{{item.imgAtr}}">
+                        </div>
+                        
+                        <mat-card-content>
+                            <p class="description">
+                                {{item.description}}
+                            </p>
+                            <span class="price-product">Price: {{item.curenPrice}}$</span>
+                        </mat-card-content>
+                        <mat-card-actions>
+                            <button mat-button class="basket-button">В корзину</button>
+                        </mat-card-actions>
+                    </mat-card>  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        
+

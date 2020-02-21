@@ -1,0 +1,67 @@
+<app-header-steps></app-header-steps>
+<div class="wrapper prod_or_serv">
+    <div class="row">
+        <div class="col-xs-12 title_block">
+            <a routerLink="/what-holiday" class="back_arrow"></a>
+            <h2 class="title">What amount do you expect?</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <form [formGroup]="formPrice" class="radio_form"> 
+                <div class="radion_block">
+
+                    <div class="custom-control custom-radio">
+                        <input 
+                            id="100_200" 
+                            type="radio" 
+                            class="custom-control-input" 
+                            value="100-200" 
+                            name="price" 
+                            formControlName="price"
+                        >
+                        <label class="custom-control-label" for="100_200">100-200</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input 
+                            id="300_400" 
+                            type="radio" 
+                            class="custom-control-input" 
+                            value="300-400" 
+                            name="price" 
+                            formControlName="price"
+                        >
+                        <label class="custom-control-label" for="300_400">300-400</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input 
+                            id="500_600" 
+                            type="radio" 
+                            class="custom-control-input" 
+                            value="500-600" 
+                            name="price" 
+                            formControlName="price"
+                        >
+                        <label class="custom-control-label" for="500_600">500-600</label>
+                    </div>
+                </div>
+                <button 
+                        routerLink="/result" 
+                        type="submit" 
+                        [disabled]="form.price.errors?.required"
+                        (click)="getFormValue();"
+                        class="next_step"
+                        >
+                        Submit
+                </button>
+                <mat-progress-bar
+                    class="progress_bar"
+                    [color]="color"
+                    [mode]="mode"
+                    [value]="value"
+                    [bufferValue]="bufferValue">
+                </mat-progress-bar>
+            </form>
+        </div>
+    </div>
+</div>

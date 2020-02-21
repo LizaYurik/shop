@@ -1,0 +1,74 @@
+<app-header-steps></app-header-steps>
+<div class="wrapper">
+    <div class="row">
+        <div class="col-xs-12 title_block">
+            <a routerLink="/get-start" class="back_arrow"></a>
+            <h2 class="title">Who needs a gift?</h2>
+            <p class="description">This will help us figure out which result is right for you</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <form [formGroup]="formSteps" class="radio_form">
+                <div class="radion_block">
+                    <div class="custom-control custom-radio">
+                        <input 
+                            id="man" 
+                            type="radio" 
+                            class="custom-control-input" 
+                            value="man" 
+                            name="forWhom" 
+                            formControlName="forWhom"
+                        >
+                        <label class="custom-control-label" for="man">For man</label>
+                    </div>
+    
+                    <div class="custom-control custom-radio">
+                        <input 
+                            id="woman" 
+                            type="radio"
+                            class="custom-control-input" 
+                            value="woman" 
+                            name="forWhom" 
+                            formControlName="forWhom"
+                        >
+                        <label class="custom-control-label" for="woman">For woman</label>
+                    </div>
+    
+                    <div class="custom-control custom-radio">
+                        <input 
+                            id="child" 
+                            type="radio"
+                            class="custom-control-input" 
+                            value="child" 
+                            name="forWhom" 
+                            formControlName="forWhom"
+    
+                        >
+                        <label class="custom-control-label" for="child">For child</label>
+                    </div>
+                    
+                </div>
+
+                <button 
+                    routerLink="/what-holiday" 
+                    type="submit" 
+                    [disabled]="form.forWhom.errors?.required"
+                    (click)="getFormValue();"
+                    class="next_step"
+                    >
+                    Next
+                </button>
+                <mat-progress-bar
+                    class="progress_bar"
+                    [color]="color"
+                    [mode]="mode"
+                    [value]="value"
+                    [bufferValue]="bufferValue">
+                </mat-progress-bar>
+
+            </form>
+        </div>
+    </div>
+
+</div>
