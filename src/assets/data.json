@@ -172,8 +172,8 @@
         "holiday" : "valentines_day",
         "title" : "Stylish boxing for women • PREMIUM",
         "description" : "The set consists of: 1. Warm cashmere scarf, pale pink. 2. Aroma Orner candles, with natural French oils",
-        "price" : "300-400",
-        "curenPrice": "350",
+        "price" : "100-200",
+        "curenPrice": "203",
         "imgUrl" : "./assets/img/product/IMG_3796.jpg",
         "imgAtr": "Stylish boxing for women"
     },
@@ -183,8 +183,8 @@
         "holiday" : "valentines_day",
         "title" : "Miniature element",
         "description" : "Miniature element",
-        "price" : "300-400",
-        "curenPrice": "350",
+        "price" : "100-200",
+        "curenPrice": "105",
         "imgUrl" : "./assets/img/product/782167cz-namistina-782167cz-1181x1181.jpg",
         "imgAtr": "Miniature element"
     },
@@ -194,8 +194,8 @@
         "holiday" : "valentines_day",
         "title" : "Salt lamp 'Heart' 3-4 kg",
         "description" : "The salt lamp is a natural air ionizer. By installing it at the child’s bed, you will improve his sleep by maintaining a clean and healthy atmosphere in the room",
-        "price" : "300-400",
-        "curenPrice": "325",
+        "price" : "500-600",
+        "curenPrice": "500",
         "imgUrl" : "./assets/img/product/IMG_3795.jpg",
         "imgAtr": "Salt lamp 'Heart' 3-4 kg"
     },
@@ -205,15 +205,15 @@
         "holiday" : "valentines_day",
         "title" : "Salt lamp 'Cat - romantic'",
         "description" : "The soothing light of the lamps helps relieve irritation and overcome insomnia. He will help office staff to increase attentiveness and relieve fatigue.",
-        "price" : "300-400",
-        "curenPrice": "305",
+        "price" : "500-600",
+        "curenPrice": "600",
         "imgUrl" : "./assets/img/product/20180723_130655.jpg",
         "imgAtr": "Salt lamp 'Cat - romantic'"
     },
     {
         "id" : "106",
         "for" : "woman",
-        "holiday" : "valentines_day",
+        "holiday" : "mothers_day",
         "title" : "Checkbook of desires FOR HER",
         "description" : "Includes such desires: 1. An evening with friends 2. One-day full submission 3. One purchase that I have long wanted.",
         "price" : "100-200",
@@ -224,7 +224,7 @@
     {
         "id" : "107",
         "for" : "woman",
-        "holiday" : "valentines_day",
+        "holiday" : "mothers_day",
         "title" : "Casket for jewelry on a fastener 'Unicorn pink'",
         "description" : " Dimensions: 15cm x 10cm x 4.5cm Material: Faux Leather",
         "price" : "100-200",
@@ -235,18 +235,18 @@
     {
         "id" : "108",
         "for" : "woman",
-        "holiday" : "valentines_day",
+        "holiday" : "mothers_day",
         "title" : "Slippers house 'Tsar Pig' (brown)",
         "description" : "A nice gift on New Year's Eve.",
-        "price" : "100-200",
-        "curenPrice": "105",
+        "price" : "300-400",
+        "curenPrice": "205",
         "imgUrl" : "./assets/img/product/8.jpg",
         "imgAtr": "Slippers house 'Tsar Pig' (brown)"
     },
     {
         "id" : "109",
         "for" : "woman",
-        "holiday" : "valentines_day",
+        "holiday" : "mothers_day",
         "title" : "Wooden stand for cosmetics 'Makeup'",
         "description" : "Dimensions: 45 x 14 x 11 cm  Material: tung oil impregnated walnut wood Suitable for: standard tablets",
         "price" : "500-600",
@@ -257,7 +257,7 @@
     {
         "id" : "110",
         "for" : "woman",
-        "holiday" : "valentines_day",
+        "holiday" : "mothers_day",
         "title" : "3D lamp, lotus night light",
         "description" : "Dimensions: 25 cm x 12.2 cm x 8.7 cm Power Consumption - 5 V 10 LED bulbs",
         "price" : "500-600",
@@ -334,7 +334,40 @@
         "curenPrice": "550",
         "imgUrl" : "./assets/img/product/IMG_32794.jpg",
         "imgAtr": "Caniam EF-S28-135mm Lens Mug with Stand Cover"
+    },
+
+    {
+        "id" : "117",
+        "for" : "woman",
+        "holiday" : "new_year",
+        "title" : "Microfiber pent with menthol seals",
+        "description" : "Hiding in a microfiber blanket you will forever forget what cold feet or hands are. The blanket covers the whole body, it is two meters long, which allows an adult to take refuge. And of course, the highlight of the plaid is the sleeves. There will no longer be a need to reveal to switch the channel or answer the phone. You can do it all while remaining completely covered. It will also be convenient to take it to nature, wrap it in it, sitting in your favorite chair, on a balcony or terrace, use it in the car as a travel blanket.",
+        "price" : "500-600",
+        "curenPrice": "600",
+        "imgUrl" : "./assets/img/product/pled-s-rukavami-iz-mikrofibry-kotiki-goluboj.jpg",
+        "imgAtr": "Microfiber pent with menthol seals"
+    },
+    {
+        "id" : "118",
+        "for" : "woman",
+        "holiday" : "new_year",
+        "title" : "Canned socks “For a strong and independent”",
+        "description" : "Do you know how to combine work, study, gym, meeting with friends, reading books, cleaning the house and another 100500 tasks? To hammer a nail into a wall, not into a finger, is it easier for you than simple? Then the title 'Strong and Independen' is definitely yours! And these socks must be present in your wardrobe!",
+        "price" : "100-200",
+        "curenPrice": "168",
+        "imgUrl" : "./assets/img/product/konserva-nosok-dlya-silnoj-i-nezavisimoj.jpg",
+        "imgAtr": "Canned socks “For a strong and independent”"
+    },
+    {
+        "id" : "119",
+        "for" : "woman",
+        "holiday" : "new_year",
+        "title" : "Silk pajamas 'Cat'",
+        "description" : "Silk pajamas collection 'Animals' creates a comfortable homely atmosphere. Pajamas from this series are ideal for those who like to soak in the bed or are used to giving love to everyone around them.",
+        "price" : "300-400",
+        "curenPrice": "380",
+        "imgUrl" : "./assets/img/product/shyolkovaya-pizhama-cat.jpg",
+        "imgAtr": "Silk pajamas 'Cat'"
     }
-    
-    
+
 ]

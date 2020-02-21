@@ -45,9 +45,7 @@ export class ResultComponent implements OnInit {
       this.router.navigate(['get-start'])
     }
 
-    const forWhom = this.forWhom;
     const whatHoliday = this.whatHoliday;
-    const priceStep = this.priceStep;
 
     if(this.forWhom === ''){
       this.router.navigate(['get-start'])
@@ -59,19 +57,6 @@ export class ResultComponent implements OnInit {
        
       })
     }
-   
 
-    if(this.forWhom && this.whatHoliday && this.priceStep) {
-      this.info  = this.resultData.filter(function(i){
-        return (i.for === forWhom && i.holiday === whatHoliday && i.price === priceStep)
-      })
-      
-    }
   }
-
-  // loadDetails() {
-  //   console.log('test')
-  //   this.router.navigate(['/item'])
-  // }
- 
 }
