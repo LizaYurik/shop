@@ -1,0 +1,12 @@
+<div class="detail_page">
+    <div class="box" *ngFor="let itemDet of detailInfo">
+        <div class="big_img">
+            <img src="{{itemDet.imgUrl}}" alt="{{itemDet.imgAtr}}"> 
+        </div>
+        <div class="description">
+            <h2>{{itemDet.title}}</h2>
+            <p class="price">{{itemDet.curenPrice}}</p>
+            <p> {{itemDet.description}}</p>
+        </div>
+    </div>
+</div>

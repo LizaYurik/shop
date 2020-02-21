@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-import { ResultService } from "../shared/services/result.service";
 import { ActivatedRoute, Router } from '@angular/router';
-import * as data from '../../assets/data.json';
+import * as data from '../../../assets/data.json';
+
 
 @Component({
-  selector: 'app-result',
-  templateUrl: './result.component.html',
-  styleUrls: ['./result.component.scss']
+  selector: 'app-product-list',
+  templateUrl: './product-list.component.html',
+  styleUrls: ['./product-list.component.scss']
 })
-export class ResultComponent implements OnInit {
-  
+export class ProductListComponent implements OnInit {
+
   resultData: any = (data as any).default; 
   info: string;
   infoAboutHoliday: string;
@@ -19,7 +19,7 @@ export class ResultComponent implements OnInit {
   infoHoliday: string;
   infoPrice: string;
 
-  constructor( private resultService: ResultService, private router: Router, private route: ActivatedRoute) {
+  constructor( private router: Router, private route: ActivatedRoute) {
     this.route.queryParams.subscribe(params => {
       this.forWhom = params['for_whom'] || localStorage.getItem('for_whom');
       this.whatHoliday = params['what_holiday'] || localStorage.getItem('what_holiday');
@@ -69,9 +69,11 @@ export class ResultComponent implements OnInit {
     }
   }
 
-  // loadDetails() {
-  //   console.log('test')
-  //   this.router.navigate(['/item'])
-  // }
- 
+
+  loadDetails(item) {
+    this.router.navigate(['/result/product-list', item.id], {queryParams:{
+      "id": item.id,
+    }})
+  }
+
 }

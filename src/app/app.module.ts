@@ -18,6 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { StartComponent } from './steps/start/star.component';
 import { HeaderStepsComponent } from './steps/header-steps/header-steps.component';
 import { HeaderResultComponent } from './result/header-result/header-result.component';
+import { ItemDetailComponent } from './result/product-list/item-detail/item-detail.component';
+import { ProductListComponent } from './result/product-list/product-list.component';
 
 
 
@@ -32,6 +34,8 @@ import { HeaderResultComponent } from './result/header-result/header-result.comp
     StartComponent,
     HeaderStepsComponent,
     HeaderResultComponent,
+    ItemDetailComponent,
+    ProductListComponent,
   ],
   imports: [
     BrowserModule,

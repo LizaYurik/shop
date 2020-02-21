@@ -1,0 +1,22 @@
+
+<div class="all_box">
+    <div class="box" *ngFor="let item of info" (click)="loadDetails(item)" >
+        <div class="div">
+            <mat-card>
+                <mat-card-title><span>{{item.title}}</span></mat-card-title>
+                <div class="img-block">
+                    <img mat-card-image src="{{item.imgUrl}}" title="{{item.imgAtr}}">
+                </div>
+                <mat-card-content>
+                    <p class="description">
+                        {{item.description}}
+                    </p>
+                    <span class="price-product">Price: {{item.curenPrice}}$</span>
+                </mat-card-content>
+                <mat-card-actions>
+                    <button mat-button class="basket-button">В корзину</button>
+                </mat-card-actions>
+            </mat-card>  
+        </div>
+    </div>
+</div>

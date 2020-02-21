@@ -44,7 +44,7 @@ export class PriceStepComponent implements OnInit {
       .subscribe(params => {
         this.page = this.formPrice.value.price
     });
-    this.router.navigate(['/result'], { queryParams: { "price-step": this.page}, queryParamsHandling: "merge" });
+    this.router.navigate(['/result/product-list'], { queryParams: { "price-step": this.page}, queryParamsHandling: "merge" });
   }
 
 }

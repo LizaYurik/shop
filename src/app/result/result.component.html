@@ -14,8 +14,9 @@
             </div>
         </div>
         <div class="wrapper">
-            <div class="all_box">
-                <div class="box" *ngFor="let item of info">
+            <router-outlet></router-outlet>
+            <!-- <div class="all_box">
+                <div class="box" *ngFor="let item of info" (click)="loadDetails(item)">
                     <mat-card>
                         <mat-card-title><span>{{item.title}}</span></mat-card-title>
                         <div class="img-block">
@@ -33,7 +34,7 @@
                         </mat-card-actions>
                     </mat-card>  
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
