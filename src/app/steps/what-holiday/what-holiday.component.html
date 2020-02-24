@@ -9,16 +9,22 @@
     <div class="row">
         <div class="col-xs-12">
             <form [formGroup]='formStepHoliday' class="radio_form">
-                <div class="custom-control custom-radio" *ngFor="let item of holidayList">
-                    <input 
-                    id="{{item.id}}" 
-                    type="radio" 
-                    class="custom-control-input" 
-                    value="{{item.value}}" 
-                    name="whatHoliday" 
-                    formControlName="whatHoliday"
-                    >
-                    <label class="custom-control-label" for="{{item.id}}">{{item.label}}</label>
+                <div class="div" *ngFor="let item of infoAboutHoliday">
+
+                    <div class="custom-control custom-radio" *ngFor='let itemNew of item.content'>
+                        
+                           {{item.id}}
+                            <input 
+                            id="{{itemNew.id}}" 
+                            type="radio" 
+                            class="custom-control-input" 
+                            value="{{itemNew.value}}" 
+                            name="whatHoliday" 
+                            formControlName="whatHoliday"
+                            >
+                            <label class="custom-control-label" for="{{itemNew.id}}">{{itemNew.label}}</label>
+                        
+                    </div>
                 </div>
                 <button 
                     routerLink="/price-step" 

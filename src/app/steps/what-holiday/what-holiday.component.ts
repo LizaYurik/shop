@@ -21,7 +21,8 @@ export class WhatHolidayComponent implements OnInit {
   value = 50;
   bufferValue = 100;
   forWhom:string;
-  holidayList: Array<object>;
+  holidayList: any;
+  infoAboutHoliday: string;
   
   constructor(
     private route: ActivatedRoute,
@@ -36,18 +37,51 @@ export class WhatHolidayComponent implements OnInit {
       this.route.queryParams.subscribe(params => {
         this.forWhom = params['for_whom'] 
       });
-      console.log(this.forWhom);
       
       this.holidayList = [
-        {id: "christmas" , value: "christmas" , label: "Christmas" },
-        {id: "new_year" , value: "new_year" , label: "New Year" },
-        {id: "valentines_day" , value: "valentines_day" , label: "Valentine's Day" },
-        {id: "mothers_day" , value: "mothers_day" , label: "Mother's Day" }, 
-        {id: "march" , value: "march" , label: "March 8" },
-        {id: "day_strength" , value: "day_strength" , label: "Day of strength" },
-        {id: "birthday" , value: "birthday" , label: "Birthday" },
+        {
+          for: "man",
+          content:[
+            {id: "christmas", value: "christmas" , label: "Christmas"},
+            {id: "new_year", value: "new_year" , label: "New Year"},
+            {id: "valentines_day", value: "valentines_day" , label: "Valentine's Day"},
+            {id: "day_strength", value: "day_strength" , label: "Day of strength"},
+            {id: "birthday", value: "birthday" , label: "Birthday"}
+          ]
+        },
+        {
+          for: "woman",
+          content:[
+            {id: "christmas", value: "christmas" , label: "Christmas"},
+            {id: "new_year", value: "new_year" , label: "New Year"},
+            {id: "valentines_day", value: "valentines_day" , label: "Valentine's Day"},
+            {id: "march", value: "march" , label: "March 8"},
+            {id: "mothers_day", value: "mothers_day" , label: "Mother's Day"},
+            {id: "birthday", value: "birthday" , label: "Birthday"}
+          ]
+        },
+        {
+          for: "child",
+          content:[
+            {id: "christmas", value: "christmas" , label: "Christmas"},
+            {id: "new_year", value: "new_year" , label: "New Year"},
+            {id: "valentines_day", value: "valentines_day" , label: "Valentine's Day"},
+            {id: "march", value: "march" , label: "March 8"},
+            {id: "mothers_day", value: "mothers_day" , label: "Mother's Day"},
+            {id: "day_strength", value: "day_strength" , label: "Day of strength"},
+            {id: "birthday", value: "birthday" , label: "Birthday"}
+          ]
+        }
       ]; 
-  }
+
+      const forWhom = this.forWhom;
+      if(this.forWhom){
+        this.infoAboutHoliday = this.holidayList.filter(function(i){
+          return (i.for === forWhom)
+        })
+      }
+    }
+
   get form() { return this.formStepHoliday.controls;}
   
   getFormValue(){
