@@ -15,23 +15,38 @@ export class WhatHolidayComponent implements OnInit {
   sub: any;
   page : any;
 
-  //pagitation settings
+
   color: ThemePalette = 'primary';
   mode: MatProgressBarModule = 'determinate';
   value = 50;
   bufferValue = 100;
-  //pagitation settings
-
+  forWhom:string;
+  holidayList: Array<object>;
+  
   constructor(
     private route: ActivatedRoute,
     private router: Router,
     private formBuilder: FormBuilder
-  ) { }
+    ) { }
     
-  ngOnInit() {
-    this.formStepHoliday = this.formBuilder.group({
-      whatHoliday: ['', [Validators.required]]
-    })
+    ngOnInit() {
+      this.formStepHoliday = this.formBuilder.group({
+        whatHoliday: ['', [Validators.required]]
+      });
+      this.route.queryParams.subscribe(params => {
+        this.forWhom = params['for_whom'] 
+      });
+      console.log(this.forWhom);
+      
+      this.holidayList = [
+        {id: "christmas" , value: "christmas" , label: "Christmas" },
+        {id: "new_year" , value: "new_year" , label: "New Year" },
+        {id: "valentines_day" , value: "valentines_day" , label: "Valentine's Day" },
+        {id: "mothers_day" , value: "mothers_day" , label: "Mother's Day" }, 
+        {id: "march" , value: "march" , label: "March 8" },
+        {id: "day_strength" , value: "day_strength" , label: "Day of strength" },
+        {id: "birthday" , value: "birthday" , label: "Birthday" },
+      ]; 
   }
   get form() { return this.formStepHoliday.controls;}
   

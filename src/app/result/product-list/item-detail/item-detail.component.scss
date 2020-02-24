@@ -9,11 +9,15 @@
             padding: 15px;
             margin-right: 25px;
             border-radius: 5px;
+            img{
+                width: 100%;
+            }
         }
         .description{
             border-left: 1px solid #c3c3c3;
             margin-top: -16px;
             padding-top: 25px;
+            width: 50%;
             .review_block{
                 border-bottom: 1px solid #c3c3c3;
                 padding-left: 25px;
