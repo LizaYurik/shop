@@ -4,9 +4,94 @@
             <img src="{{itemDet.imgUrl}}" alt="{{itemDet.imgAtr}}"> 
         </div>
         <div class="description">
+            <div class="review_block">
+                <div class="marks">
+                    <a href="#" class="active"></a>
+                    <a href="#" class="active"></a>
+                    <a href="#" class="active"></a>
+                    <a href="#" class="active"></a>
+                    <a href="#" class="active"></a>
+                </div>
+            </div>
             <h2>{{itemDet.title}}</h2>
-            <p class="price">{{itemDet.curenPrice}}</p>
-            <p> {{itemDet.description}}</p>
+            <div class="price_block">
+                <p class="price">{{itemDet.curenPrice}}$</p>
+                <span class="delivery">On order 1-3 days</span>
+            </div>
+            <div class="description_info">
+                <h2>Description</h2>
+                <p>{{itemDet.description}}</p>
+            </div>
+            <div class="btn_block">
+                <button class="buy">Buy</button>
+                <button class="wish">In desire</button>
+            </div>
+            <div class="delivery_block">
+                <mat-tab-group>
+                    <mat-tab>
+                        <ng-template mat-tab-label>
+                            <mat-icon class="delivery_icon"></mat-icon>
+                            Delivery
+                        </ng-template>
+                        <p><b>Delivery in Ukraine to the warehouse "Nova Posta"</b></p>
+                        <p>
+                            Delivery is carried out by the Nova Posta company, cost - 55 UAH.<br>
+                            <b>Free delivery</b> for orders from 1000 UAH.<br>
+                            Delivery time 1-2 days after placing the order, in case of availability of goods in stock.
+                        </p>
+
+                        <p><b>Delivery in Ukraine to the door "Courier"</b></p>
+                        <p>
+                            Delivery is carried out by Nova Posta company, the cost is 75 UAH.<br>
+                            <b>Free delivery</b>for orders from 1500 UAH.<br>
+                            Delivery time is 2-3 days after placing the order, in case of availability of goods in stock.
+                        </p>
+                    </mat-tab>
+                  
+                    <mat-tab>
+                        <ng-template mat-tab-label>
+                            <mat-icon class="payment_icon"></mat-icon>
+                                Payment
+                        </ng-template>
+                        <p>
+                            <b>Payment Visa / MasterCard (online). - 3% off</b>
+                        </p>
+                        <p>
+                            Online payment by Visa and MasterCard by any bank of Ukraine after placing an order. Payment is made through the secure payment system of PrivatBank - Liqpay.
+                        </p>
+                        <p>
+                            <b>Cash on delivery (Upon receipt)</b>
+                        </p>
+                        <p>
+                            Payment for the order is made in cash upon receipt by the courier or at the office of the transport company. For cash on delivery additionally paid 20 UAH. + 2% of the order value (according to the tariffs of the company "New Mail")
+                        </p>
+                        <p>
+                            <b>Payment by bank transfer (To the PrivatBank card)</b>
+                        </p>
+                        <p>After order confirmation, you will be sent an invoice for payment by e-mail or SMS, indicating our bank details and order amount.</p>
+                     
+                    </mat-tab>
+                  
+                    <mat-tab>
+                        <ng-template mat-tab-label>
+                            <mat-icon class="guarantees_icon"></mat-icon>
+                            Guarantees
+                        </ng-template>
+                        <p>
+                            <b>Money back guarantee.</b>
+                        </p>
+                        <p>
+                            Each buyer receives a 100% money back guarantee.
+                        </p>
+                        <p>
+                            Goods purchased in the online store can be exchanged or <b>returned within 14 days from the date of purchase while</b> maintaining the presentation.
+                        </p>
+                        <p>
+                            The return of funds to the Client is carried out within 2-5 business days after the return of the goods.
+                        </p>
+                    </mat-tab>
+                  </mat-tab-group>
+            </div>
         </div>
     </div>
 </div>

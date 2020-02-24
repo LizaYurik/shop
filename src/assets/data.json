@@ -44,104 +44,207 @@
         "id" : "1",
         "for" : "man",
         "holiday" : "christmas",
+        "title" : "Scratch-map of the world 'My map Ukraine edition' UKR",
+        "description" : "This is a scratch map of Ukraine in Ukrainian, which is fundamentally different from all the analogues on the market. The purpose of the map was to introduce you to your country, its landscapes, natural wonders and cultural monuments, we are for the development of domestic tourism and the knowledge of its culture.",
         "price" : "100-200",
-        "title" : "Man christmas 100-200" 
+        "curenPrice": "140",
+        "imgUrl" : "./assets/img/product/245.jpg",
+        "imgAtr": "Scratch-map of the world 'My map Ukraine edition' UKR"
     },
     {
         "id" : "2",
         "for" : "man",
-        "holiday" : "new_year",
+        "holiday" : "christmas",
+        "title" : "Pillow 'Wheel'",
+        "description" : "Recently, funny pillows are often chosen for gifts, which stand out with unusual and funny inscriptions and drawings. Such a gift is able to cheer up not only the hero of the occasion, but the whole company, while the pillow will not be dusted, as is often the case with gifts, but will be in demand!",
         "price" : "100-200",
-        "title" : "Man new_year 100-200" 
+        "curenPrice": "185",
+        "imgUrl" : "./assets/img/product/267639034.jpg",
+        "imgAtr": "Pillow 'Wheel'"
     },
+
     {
         "id" : "3",
         "for" : "man",
-        "holiday" : "valentines_day",
-        "price" : "100-200",
-        "title" : "Man valentines_day 100-200" 
+        "holiday" : "christmas",
+        "title" : "Thermal Mug 'Coat of Arms'",
+        "description" : "What for? Do not have time to notice how your tea has cooled down? The thermomug will keep warm and will help to notice only pleasure from a drink! When? Always, if you need a long time to enjoy hot coffee or tea, as well as to drink a cold cocktail in the summer heat. Where? On a table at a computer or a book, in a cup holder of a car, in a movie with popcorn, on a walk with a dog, on a street with a stroller, on a bicycle, skiing in the mountains, on a campfire trip, on a steam ..",
+        "price" : "300-400",
+        "curenPrice": "320",
+        "imgUrl" : "./assets/img/product/21045_1.jpg",
+        "imgAtr": "Thermal Mug 'Coat of Arms'"
     },
     {
         "id" : "4",
         "for" : "man",
-        "holiday" : "mothers_day",
-        "price" : "100-200",
-        "title" : "Man mothers_day 100-200" 
+        "holiday" : "christmas",
+        "title" : "Mask for a dream 'More UA'",
+        "description" : "A sleeping mask is worn on the head to cover the eyes to protect them from bright light during sleep, both in transport and at home. The mask can be worn to prevent eye opening. With open eyes, nothing is visible through the fabric.",
+        "price" : "300-400",
+        "curenPrice": "350",
+        "imgUrl" : "./assets/img/product/1039351021.jpg",
+        "imgAtr": "Mask for a dream 'More UA'"
     },
+
     {
         "id" : "5",
         "for" : "man",
-        "holiday" : "march",
-        "price" : "100-200",
-        "title" : "Man mothers_day 100-200" 
-    },
-    {
+        "holiday" : "christmas",
+        "title" : "Chewing gum 'Razduplin'",
+        "description" : "Who should give the Anti Fuck Up Chewing Gum? Give a positive mood to a friend, friend, sister or brother, or even parents. They, too, are not going smoothly.",
+        "price" : "500-600",
+        "curenPrice": "599",
+        "imgUrl" : "./assets/img/product/e2c8bfe977c232cc092be4c69b5d6260.jpg",
+        "imgAtr": "Chewing gum 'Razduplin'"
+    },{
         "id" : "6",
         "for" : "man",
-        "holiday" : "day_strength",
-        "price" : "100-200",
-        "title" : "Man mothers_day 100-200" 
+        "holiday" : "christmas",
+        "title" : "Christmas music box with a Christmas melody 'Merry Christmas'",
+        "description" : " Music Box Melody: Christmas and New Year carol originally from England 'We wish you a Merry Christmas and a happy New Year ...' Size: 7.5x6.3x4.5cm",
+        "price" : "500-600",
+        "curenPrice": "489",
+        "imgUrl" : "./assets/img/product/shkatulka_musykalnaja_MeryChristmas2_1.jpg",
+        "imgAtr": "Christmas music box with a Christmas melody 'Merry Christmas'"
     },
+
+
+
     {
         "id" : "7",
         "for" : "man",
-        "holiday" : "birthday",
+        "holiday" : "new_year",
+        "title" : "Hold Your Pants Belt",
+        "description" : "Unusual belt on a belt. Unisex - you can use both the women's belt and the men's belt. It all depends on the design that you like.",
         "price" : "100-200",
-        "title" : "Man mothers_day 100-200" 
-    },
-    
-
-
-
-    {
-        "for" : "man",
-        "holiday" : "christmas",
-        "price" : "300-400",
-        "title" : "Man christmas 300-400" 
+        "curenPrice": "135",
+        "imgUrl" : "./assets/img/product/2905201.jpg",
+        "imgAtr": "Hold Your Pants Belt"
     },
     {
-        "for" : "man",
-        "holiday" : "christmas",
-        "price" : "300-400",
-        "title" : "Man christmas 300-400 view2" 
-    },
-    {
+        "id" : "8",
         "for" : "man",
         "holiday" : "new_year",
-        "price" : "300-400",
-        "title" : "Man new_year 300-400" 
+        "title" : "Starbucks Grand Green Set",
+        "description" : "This is a great holiday gift for gourmets and tea lovers, it is also suitable for relatives, friends and a corporate gift.",
+        "price" : "100-200",
+        "curenPrice": "110",
+        "imgUrl" : "./assets/img/product/f7735f473a8ffbc0e1b55b7a7a8171a9.jpg",
+        "imgAtr": "Starbucks Grand Green Set"
     },
     {
+        "id" : "9",
+        "for" : "man",
+        "holiday" : "new_year",
+        "title" : "Ecological bag “Bukhlishko will save the world” RU",
+        "description" : "Convenient, durable and roomy eco-friendly bag - a great alternative to harmful plastic bags. With this bag it’s nice to go shopping, take it on vacation or to the gym, and a bright design print will emphasize your personality.",
+        "price" : "200-300",
+        "curenPrice": "222",
+        "imgUrl" : "./assets/img/product/bd_eco_s_35.jpg",
+        "imgAtr": "Ecological bag “Bukhlishko will save the world” RU"
+    },
+    {
+        "id" : "10",
+        "for" : "man",
+        "holiday" : "new_year",
+        "title" : "Caniam Thermal Mug with Stand, White",
+        "description" : "Made of stainless steel with plastic elements, packed in a cardboard box. It is completed with a stylish cover from fabric. A great gift for a thermo-mug lens, which is always useful when traveling wherever you go!",
+        "price" : "200-300",
+        "curenPrice": "225",
+        "imgUrl" : "./assets/img/product/be900342426c5c0441dcb0b35932cb88.jpg",
+        "imgAtr": "Caniam Thermal Mug with Stand, White"
+    },
+    {
+        "id" : "11",
+        "for" : "man",
+        "holiday" : "new_year",
+        "title" : "Travel pillow 'Just go!'",
+        "description" : "Travel bagel cushion for travel provides the correct position of the head during long trips and flights. It reduces fatigue and creates the opportunity for sleep and relaxation while traveling.",
+        "price" : "500-600",
+        "curenPrice": "489",
+        "imgUrl" : "./assets/img/product/392735497.jpg",
+        "imgAtr": "Travel pillow 'Just go!'"
+    },
+    {
+        "id" : "12",
+        "for" : "man",
+        "holiday" : "new_year",
+        "title" : "Starbucks Grand Green Set",
+        "description" : "This is a great holiday gift for gourmets and tea lovers, it is also suitable for relatives, friends and a corporate gift.",
+        "price" : "100-200",
+        "curenPrice": "110",
+        "imgUrl" : "./assets/img/product/f7735f473a8ffbc0e1b55b7a7a8171a9.jpg",
+        "imgAtr": "Starbucks Grand Green Set"
+    },
+
+
+    {
+        "id" : "13",
         "for" : "man",
         "holiday" : "valentines_day",
-        "price" : "300-400",
-        "title" : "Man valentines_day 300-400" 
+        "title" : "Scratch-map of the world 'My map Ukraine edition' UKR",
+        "description" : "This is a scratch map of Ukraine in Ukrainian, which is fundamentally different from all the analogues on the market. The purpose of the map was to introduce you to your country, its landscapes, natural wonders and cultural monuments, we are for the development of domestic tourism and the knowledge of its culture.",
+        "price" : "100-200",
+        "curenPrice": "140",
+        "imgUrl" : "./assets/img/product/245.jpg",
+        "imgAtr": "Scratch-map of the world 'My map Ukraine edition' UKR"
     },
     {
+        "id" : "14",
         "for" : "man",
-        "holiday" : "mothers_day",
-        "price" : "300-400",
-        "title" : "Man mothers_day 300-400" 
+        "holiday" : "valentines_day",
+        "title" : "Hold Your Pants Belt",
+        "description" : "Unusual belt on a belt. Unisex - you can use both the women's belt and the men's belt. It all depends on the design that you like.",
+        "price" : "100-200",
+        "curenPrice": "135",
+        "imgUrl" : "./assets/img/product/2905201.jpg",
+        "imgAtr": "Hold Your Pants Belt"
     },
     {
+        "id" : "15",
         "for" : "man",
-        "holiday" : "march",
+        "holiday" : "valentines_day",
+        "title" : "Thermal Mug 'Coat of Arms'",
+        "description" : "What for? Do not have time to notice how your tea has cooled down? The thermomug will keep warm and will help to notice only pleasure from a drink! When? Always, if you need a long time to enjoy hot coffee or tea, as well as to drink a cold cocktail in the summer heat. Where? On a table at a computer or a book, in a cup holder of a car, in a movie with popcorn, on a walk with a dog, on a street with a stroller, on a bicycle, skiing in the mountains, on a campfire trip, on a steam ..",
         "price" : "300-400",
-        "title" : "Man mothers_day 300-400" 
+        "curenPrice": "320",
+        "imgUrl" : "./assets/img/product/21045_1.jpg",
+        "imgAtr": "Thermal Mug 'Coat of Arms'"
     },
     {
+        "id" : "16",
         "for" : "man",
-        "holiday" : "day_strength",
-        "price" : "300-400",
-        "title" : "Man mothers_day 300-400" 
+        "holiday" : "valentines_day",
+        "title" : "Caniam Thermal Mug with Stand, White",
+        "description" : "Made of stainless steel with plastic elements, packed in a cardboard box. It is completed with a stylish cover from fabric. A great gift for a thermo-mug lens, which is always useful when traveling wherever you go!",
+        "price" : "200-300",
+        "curenPrice": "225",
+        "imgUrl" : "./assets/img/product/be900342426c5c0441dcb0b35932cb88.jpg",
+        "imgAtr": "Caniam Thermal Mug with Stand, White"
     },
     {
+        "id" : "17",
         "for" : "man",
-        "holiday" : "birthday",
-        "price" : "300-400",
-        "title" : "Man mothers_day 300-400" 
+        "holiday" : "valentines_day",
+        "title" : "Christmas music box with a Christmas melody 'Merry Christmas'",
+        "description" : " Music Box Melody: Christmas and New Year carol originally from England 'We wish you a Merry Christmas and a happy New Year ...' Size: 7.5x6.3x4.5cm",
+        "price" : "500-600",
+        "curenPrice": "489",
+        "imgUrl" : "./assets/img/product/shkatulka_musykalnaja_MeryChristmas2_1.jpg",
+        "imgAtr": "Christmas music box with a Christmas melody 'Merry Christmas'"
     },
-    
+    {
+        "id" : "18",
+        "for" : "man",
+        "holiday" : "valentines_day",
+        "title" : "Chewing gum 'Razduplin'",
+        "description" : "Who should give the Anti Fuck Up Chewing Gum? Give a positive mood to a friend, friend, sister or brother, or even parents. They, too, are not going smoothly.",
+        "price" : "500-600",
+        "curenPrice": "599",
+        "imgUrl" : "./assets/img/product/e2c8bfe977c232cc092be4c69b5d6260.jpg",
+        "imgAtr": "Chewing gum 'Razduplin'"
+    },
+
 
 
     {

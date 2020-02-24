@@ -1,0 +1,127 @@
+.detail_page{
+    .box{
+        display: flex;
+        border-top: 1px solid #c3c3c3;
+        padding-top: 15px;
+        margin-bottom: 40px;
+        .big_img{
+            width: 47%;
+            padding: 15px;
+            margin-right: 25px;
+            border-radius: 5px;
+        }
+        .description{
+            border-left: 1px solid #c3c3c3;
+            margin-top: -16px;
+            padding-top: 25px;
+            .review_block{
+                border-bottom: 1px solid #c3c3c3;
+                padding-left: 25px;
+                padding-bottom: 15px;
+            }
+            .marks{
+                a{
+                    width: 34px;
+                    height: 34px;
+                    background: url(../../../../assets/img/icons/marks.png) no-repeat center;
+                    display: inline-block;
+                }
+            }
+            h2{
+                border-bottom: 1px solid #c3c3c3;
+                padding-left: 25px;
+                padding-bottom: 15px;
+            }
+            .price_block{
+                border-bottom: 1px solid #c3c3c3;
+                padding-left: 25px;
+                padding-bottom: 15px;
+                display: flex;
+                align-items: center;
+                .price{
+                    color: #f29525;
+                    font-weight: 700;
+                    font-size: 25px;
+                    width: 50%;
+                    position: relative;
+                    &:after{
+                        content: " ";
+                        position: absolute;
+                        width: 1px;
+                        height: 100%;
+                        background:#c3c3c3;
+                        top: 0;
+                        right: 10px;
+                    }
+                }
+                .delivery{
+                    color: #f29525;
+                    padding-left: 22px;
+                    position: relative;
+                    margin-left: 20px;
+                    &:after{
+                        content: " ";
+                        position: absolute;
+                        width: 5px;
+                        height: 5px;
+                        background: #f29525;
+                        border-radius: 50%;
+                        top: 7px;
+                        left: 5px;
+                    }
+                }
+            }
+            .description_info{
+                border-bottom: 1px solid #c3c3c3;
+                padding-left: 25px;
+                padding-bottom: 15px;
+                h2{
+                    padding: 0;
+                    border-bottom: 0 solid #000;
+                }
+            }
+            .btn_block{
+                border-bottom: 1px solid #c3c3c3;
+                padding-left: 25px;
+                padding-bottom: 15px;
+                display: flex;
+                justify-content: space-between;
+                button{
+                    border: 0;
+                    background: #f29525;
+                    color: #fff;
+                    font-size: 16px;
+                    width: 30%;
+                    border-radius: 5px;
+                    padding: 15px 15px;
+                    margin: 15px 15px 0px 15px;
+                    transition: all .4s;
+                    cursor: pointer;
+                    &:hover{
+                        transition: all .4s;
+                        background: #e6850f;
+                    }
+                }
+            }
+            .delivery_block{
+                border-bottom: 1px solid #c3c3c3;
+                padding-left: 25px;
+                padding-bottom: 15px;
+                margin-top: 15px;
+                mat-icon{
+                    width: 35px;
+                    height: 35px;
+                }
+                .delivery_icon{
+                    background: url(../../../../assets/img/icons/delivery.png)no-repeat center;
+                }
+                .payment_icon{
+                    background: url(../../../../assets/img/icons/payment.png)no-repeat center;
+                }
+                .guarantees_icon{
+                    background: url(../../../../assets/img/icons/guarantees.png)no-repeat center;
+                }
+            }
+        }
+    }
+}
