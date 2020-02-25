@@ -1,0 +1,28 @@
+<div class="wrapper">
+    <div class="row">
+        <div class="authBlock">
+            <h1>Login in account</h1>
+          
+            <div class="formGroup">
+                <input type="text" class="formControl" placeholder="Username" #userName required>
+              </div>
+              <div class="formGroup">
+                <input type="password" class="formControl" placeholder="Password" #userPassword required>
+              </div>
+                <button (click)="authService.SignIn(userName.value, userPassword.value)">Sing In</button>
+                <div class="formGroup">
+                    <button type="button" class="btn googleBtn" (click)="authService.GoogleAuth()">
+                      <i class="fab fa-google-plus-g"></i>
+                      Log in with Google
+                    </button>
+                  </div>
+                  <div class="forgotPassword">
+                    <span routerLink="/forgot-password">Forgot Password?</span>
+                  </div>
+                  <div class="redirectToLogin">
+                    <span>Don't have an account?<span class="redirect" routerLink="/register-user"> Sign Up</span></span>
+                  </div>
+            
+        </div>
+    </div>
+</div>

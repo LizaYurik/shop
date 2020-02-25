@@ -8,8 +8,12 @@
         
         <div class="menu">
             <a routerLink="/get-start" class="back_to_step" (click)='clearResult()'>Choose other</a>
-            <a href="#" class="btn">Вход</a>
-            <a href="#" class="btn">Авторизация</a>
+            <div>
+                <a routerLink="/sing-in" class="btn">Вход</a>
+                <a routerLink="/register-user" class="btn">Авторизация</a>
+                <a (click)="authService.isLoggedIn">test</a>
+            </div>
+            <button *ngIf="authService.userData as user" (click)="authService.SignOut()">Log out</button>
         </div>
     </div>
 </header>

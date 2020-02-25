@@ -8,8 +8,28 @@ import { PriceStepComponent } from "./steps/price-step/price-step.component";
 import { ResultComponent } from './result/result.component';
 import { ItemDetailComponent } from './result/product-list/item-detail/item-detail.component';
 import { ProductListComponent } from './result/product-list/product-list.component';
+import { SingInComponent } from './auth/sing-in/sing-in.component';
+import { SingUpComponent } from './auth/sing-up/sing-up.component';
+import { VerifyEmailComponent } from './auth/verify-email/verify-email.component';
+import { ForgotPasswordComponent } from './auth/forgot-password/forgot-password.component';
 
 const appRoutes : Routes =[
+    {
+        path: "forgot-password",
+        component: ForgotPasswordComponent
+    },
+    {
+        path: "verify-email-address",
+        component: VerifyEmailComponent
+    },
+    {
+        path: "sing-in",
+        component: SingInComponent
+    },
+    {
+        path: "register-user",
+        component: SingUpComponent
+    },
     {
         path: "get-start",
         component: StartComponent
@@ -40,10 +60,6 @@ const appRoutes : Routes =[
             }
         ]
     },
-    // {
-    //     path: 'item',
-    //     component: ItemDetailComponent
-    // },
     {
         path: '',
         redirectTo: '/result',

@@ -20,6 +20,15 @@ import { HeaderStepsComponent } from './steps/header-steps/header-steps.componen
 import { HeaderResultComponent } from './result/header-result/header-result.component';
 import { ItemDetailComponent } from './result/product-list/item-detail/item-detail.component';
 import { ProductListComponent } from './result/product-list/product-list.component';
+import { SingInComponent } from './auth/sing-in/sing-in.component';
+import { SingUpComponent } from './auth/sing-up/sing-up.component';
+
+import { AngularFireModule } from "@angular/fire";
+import { AngularFireAuthModule } from "@angular/fire/auth";
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { environment } from '../environments/environment';
+import { VerifyEmailComponent } from './auth/verify-email/verify-email.component';
+import { ForgotPasswordComponent } from './auth/forgot-password/forgot-password.component';
 
 
 
@@ -36,6 +45,10 @@ import { ProductListComponent } from './result/product-list/product-list.compone
     HeaderResultComponent,
     ItemDetailComponent,
     ProductListComponent,
+    SingInComponent,
+    SingUpComponent,
+    VerifyEmailComponent,
+    ForgotPasswordComponent,
   ],
   imports: [
     BrowserModule,
@@ -44,7 +57,11 @@ import { ProductListComponent } from './result/product-list/product-list.compone
     AppRoutingModule,
     ReactiveFormsModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAuthModule,
+    AngularFirestoreModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

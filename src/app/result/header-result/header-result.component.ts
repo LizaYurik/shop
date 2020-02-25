@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, NgZone } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { AuthService } from "../../shared/services/auth.service";
 
 @Component({
   selector: 'app-header-result',
@@ -7,11 +8,19 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./header-result.component.scss']
 })
 export class HeaderResultComponent implements OnInit {
-
-  constructor(private router: Router, private route: ActivatedRoute) { }
+  userData: any;
+  constructor(
+    private router: Router, 
+    private route: ActivatedRoute,
+    public authService: AuthService,
+    public ngZone: NgZone
+    ) { }
 
   ngOnInit() {
-
+    console.log(this.authService)
+    // if(this.authService.userData as user){
+    //   console.log("tessss")
+    // }
   }
 
   clearResult(){
