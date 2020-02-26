@@ -10,14 +10,15 @@ import { Router } from "@angular/router";
 })
 
 export class AuthService {
-  userData: any; // Save logged in user data
+  userData: any; 
 
   constructor(
-    public afs: AngularFirestore,   // Inject Firestore service
-    public afAuth: AngularFireAuth, // Inject Firebase auth service
+    public afs: AngularFirestore,  
+    public afAuth: AngularFireAuth, 
     public router: Router,  
-    public ngZone: NgZone // NgZone service to remove outside scope warning
+    public ngZone: NgZone 
   ) {    
+
     /* Saving user data in localstorage when 
     logged in and setting up null when logged out */
     this.afAuth.authState.subscribe(user => {
@@ -49,9 +50,6 @@ export class AuthService {
   SignUp(email, password) {
     return this.afAuth.auth.createUserWithEmailAndPassword(email, password)
       .then((result) => {
-        /* Call the SendVerificaitonMail() function when new user sign 
-        up and returns promise */
-        //this.SendVerificationMail();
         this.SetUserData(result.user);
         this.router.navigate(['sing-in']);
       }).catch((error) => {
@@ -59,13 +57,6 @@ export class AuthService {
       })
   }
 
-  // Send email verfificaiton when new user sign up
-  // SendVerificationMail() {
-  //   return this.afAuth.auth.currentUser.sendEmailVerification()
-  //   .then(() => {
-  //     this.router.navigate(['verify-email-address']);
-  //   })
-  // }
 
   // Reset Forggot password
   ForgotPassword(passwordResetEmail) {
@@ -80,9 +71,8 @@ export class AuthService {
   // Returns true when user is looged in and email is verified
   get isLoggedIn(): boolean {
     const user = JSON.parse(localStorage.getItem('user'));
-    return (user !== null && user.emailVerified !== false) ? true : false;
+   return (user !== null) ? true : false;
     
-    //return (user !== null) ? true : false;
   }
 
   // Sign in with Google
@@ -113,7 +103,6 @@ export class AuthService {
       email: user.email,
       displayName: user.displayName,
       photoURL: user.photoURL,
-     //emailVerified: user.emailVerified
     }
     return userRef.set(userData, {
       merge: true

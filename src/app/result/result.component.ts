@@ -30,7 +30,7 @@ export class ResultComponent implements OnInit {
   
   ngOnInit() {
 
-    if( this.forWhom && this.whatHoliday && this.priceStep) {
+    if(this.forWhom && this.whatHoliday && this.priceStep) {
       this.router.navigate(['/result/product-list'], { queryParams: { 
         "for_whom": this.forWhom,
         'what_holiday': this.whatHoliday,

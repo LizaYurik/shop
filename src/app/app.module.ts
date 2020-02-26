@@ -17,7 +17,7 @@ import { ResultComponent } from './result/result.component';
 import { HttpClientModule } from '@angular/common/http';
 import { StartComponent } from './steps/start/star.component';
 import { HeaderStepsComponent } from './steps/header-steps/header-steps.component';
-import { HeaderResultComponent } from './result/header-result/header-result.component';
+import { HeaderResultComponent } from './header-result/header-result.component';
 import { ItemDetailComponent } from './result/product-list/item-detail/item-detail.component';
 import { ProductListComponent } from './result/product-list/product-list.component';
 import { SingInComponent } from './auth/sing-in/sing-in.component';
