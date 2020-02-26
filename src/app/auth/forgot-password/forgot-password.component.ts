@@ -4,7 +4,7 @@ import { AuthService } from "../../shared/services/auth.service";
 @Component({
   selector: 'app-forgot-password',
   templateUrl: './forgot-password.component.html',
-  styleUrls: ['./forgot-password.component.scss']
+  styleUrls: ['../auth.component.scss']
 })
 export class ForgotPasswordComponent implements OnInit {
 

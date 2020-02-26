@@ -1,0 +1,104 @@
+.authBlock{
+    min-height: 100vh;
+    background: #e8e8e8;
+    display: flex;
+    align-items: center;
+    .row{
+        flex-direction: column;
+    }
+    h1{
+        text-align: center;
+        color: #f29525;
+        margin-bottom: 60px;
+    }
+    .formGroup{
+        margin-bottom: 20px;
+        input{
+            border: 1px solid #f29525;
+            padding: 15px 15px;
+            border-radius: 5px;
+            width: calc(100% - 30px);
+            min-width: 370px;
+            font-size: 16px;
+            &:focus{
+                outline: none;
+            }
+            &::-webkit-input-placeholder { color: #f29525; font-size: 16px;}
+            &:-ms-input-placeholder { color: #f29525; font-size: 16px;}
+            &::-ms-input-placeholder { color: #f29525; font-size: 16px;}
+            &::placeholder { color: #f29525; font-size: 16px;} 
+        }
+    }
+    .auth_btn{
+        background: #f29525;
+        border: none;
+        display: inline-block;
+        color: #fff;
+        font-size: 16px;
+        padding: 15px 50px;
+        margin: 0 auto;
+        border-radius: 6px;
+        transition: all 0.4s;
+        margin-bottom: 25px;
+        cursor: pointer;
+        &:focus{
+            outline: none;
+        }
+        &:hover{
+            transition: all 0.4s;
+            background: #e6850f;
+        }
+    }
+    .googleBtn{
+        background: #000;
+        border: none;
+        display: block;
+        color: #fff;
+        padding: 15px 65px;
+        font-size: 16px;
+        border-radius: 5px;
+        margin: 0 auto;
+        cursor: pointer;
+        position: relative;
+        &:after{
+            content: " ";
+            background: url(../../assets/img/icons/google.png)no-repeat center;
+            width: 32px;
+            height: 40px;
+            display: block;
+            position: absolute;
+            left: 11px;
+            top: 6px;
+            background-size: contain;
+        }
+    }
+    .forgotPassword{
+        text-align: center;
+        font-size: 14px;
+        color: #f29525;
+        margin-bottom: 15px; 
+        text-decoration: underline;
+        transition: all 0.4s;
+        cursor: pointer;
+        &:hover{
+            text-decoration: none;
+            transition: all 0.4s;
+        }
+    }
+    .redirectToLogin{
+        text-align: center;
+        margin-bottom: 20px;
+        .redirect{
+            font-size: 16px;
+            color: #f29525;
+            font-weight: 700;
+            cursor: pointer;
+            text-decoration: underline;
+            transition: all 0.4s;
+            &:hover{
+                text-decoration: none;
+                transition: all 0.4s;
+            }
+        }
+    }
+}

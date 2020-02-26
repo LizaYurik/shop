@@ -12,16 +12,17 @@
             <!-- <div class="" ngIf="authService.userData as user">
 
             </div> -->
+            <!-- <span>test1</span>
+            <span *ngIf="authService.userData">test2</span> -->
             <div *ngIf="condition">
                 <a routerLink="/sing-in" class="btn">Вход</a>
                 <a routerLink="/register-user" class="btn">Авторизация</a>
                 <a (click)="authService.isLoggedIn">test</a>
             </div>
             <div *ngIf="authService.userData as user">
-
-                    <button (click)="authService.SignOut()">Log out</button>
-                    <span>{{user.email}}</span>
-                </div>
+                <button (click)="authService.SignOut()">Log out</button>
+                <span>{{user.email}}</span>
+            </div>
         </div>
     </div>
 </header>

@@ -27,7 +27,6 @@ import { AngularFireModule } from "@angular/fire";
 import { AngularFireAuthModule } from "@angular/fire/auth";
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
-import { VerifyEmailComponent } from './auth/verify-email/verify-email.component';
 import { ForgotPasswordComponent } from './auth/forgot-password/forgot-password.component';
 
 
@@ -47,7 +46,6 @@ import { ForgotPasswordComponent } from './auth/forgot-password/forgot-password.
     ProductListComponent,
     SingInComponent,
     SingUpComponent,
-    VerifyEmailComponent,
     ForgotPasswordComponent,
   ],
   imports: [

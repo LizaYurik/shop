@@ -10,20 +10,27 @@ import { AuthService } from "../../shared/services/auth.service";
 export class HeaderResultComponent implements OnInit {
   userData: any;
   getUserStorage:string;
-  condition: boolean = false;
+  condition: boolean;
 
   constructor(
     private router: Router, 
     private route: ActivatedRoute,
     public authService: AuthService,
     public ngZone: NgZone
-    ) { }
+    ) { 
+
+     
+      this.getUserStorage = localStorage.getItem('user');
+      if(this.getUserStorage !== "null"){
+       // setTimeout(function(){
+
+          this.condition = true;
+        //},1000)
+      
+      }
+    }
 
   ngOnInit() {
-   this.getUserStorage = localStorage.getItem('user');
-   if(this.getUserStorage === "null"){
-    this.condition = !this.condition;
-   }
   }
 
   clearResult(){

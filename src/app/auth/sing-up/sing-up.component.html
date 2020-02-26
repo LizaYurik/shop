@@ -1,27 +1,23 @@
-<div class="wrapper">
-    <div class="row">
-        <div class="authBlock">
+<div class="authBlock">
+    <div class="wrapper">
+        <div class="row">
             <h1>Registration</h1>
+           
             <div class="formGroup">
                 <input type="email" class="formControl" placeholder="Email Address" #userEmail required>
-              </div>
-        
-              <div class="formGroup">
+            </div>
+            <div class="formGroup">
                 <input type="password" class="formControl" placeholder="Password" #userPwd required>
-              </div>
-        
-              <div class="formGroup">
-                <input type="button" class="btn btnPrimary" value="Sign Up" (click)="authService.SignUp(userEmail.value, userPwd.value)">
-              </div>
-
-              <div class="formGroup">
+            </div>
+            <button (click)="authService.SignUp(userEmail.value, userPwd.value)" class="auth_btn">Sing Up</button>
+            
+            <div class="formGroup">
                 <button type="button" class="btn googleBtn" (click)="authService.GoogleAuth()">
-                  <i class="fab fa-google-plus-g"></i>
-                  Continue with Google
+                    Continue with Google
                 </button>
               </div>
             <div class="redirectToLogin">
-                <span>Already have an account? <span class="redirect" routerLink="/sign-in">Log In</span></span>
+                <span>Already have an account? <span class="redirect" routerLink="/sing-in">Login In</span></span>
             </div>
         </div>
     </div>
