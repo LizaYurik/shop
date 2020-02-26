@@ -9,20 +9,18 @@
         <div class="menu">
             
             <a routerLink="/get-start" class="back_to_step" (click)='clearResult()'>Choose other</a>
-            <!-- <div class="" ngIf="authService.userData as user">
 
-            </div> -->
-            <!-- <span>test1</span>
-            <span *ngIf="authService.userData">test2</span> -->
-            <div *ngIf="condition">
+            <div *ngIf="!authService.userData">
                 <a routerLink="/sing-in" class="btn">Вход</a>
                 <a routerLink="/register-user" class="btn">Авторизация</a>
-                <a (click)="authService.isLoggedIn">test</a>
             </div>
+
             <div *ngIf="authService.userData as user">
-                <button (click)="authService.SignOut()">Log out</button>
+                <a (click)="authService.SignOut()" class="btn">Log out</a>
                 <span>{{user.email}}</span>
             </div>
+           
+            
         </div>
     </div>
 </header>
