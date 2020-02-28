@@ -5,14 +5,13 @@
 export const environment = {
   production: false,
   firebase :{
-    apiKey: "AIzaSyCvcXGf66Mt1GIoCX4Rfb3HGsKoaMC76Yc",
-    authDomain: "shopproject-bc271.firebaseapp.com",
-    databaseURL: "https://shopproject-bc271.firebaseio.com",
-    projectId: "shopproject-bc271",
-    storageBucket: "shopproject-bc271.appspot.com",
-    messagingSenderId: "800986894408",
-    appId: "1:800986894408:web:63e0faa4b4a82b3632087d",
-    measurementId: "G-7R3X5KREM4"
+    apiKey: "AIzaSyCpptW4MCMlvmWElOQTOzPw3at2gAvRlbU",
+    authDomain: "shop-for-lazy-1d047.firebaseapp.com",
+    databaseURL: "https://shop-for-lazy-1d047.firebaseio.com",
+    projectId: "shop-for-lazy-1d047",
+    storageBucket: "shop-for-lazy-1d047.appspot.com",
+    messagingSenderId: "585117944439",
+    appId: "1:585117944439:web:a6749c0cd528f7dba7d472"
   }
 };
 

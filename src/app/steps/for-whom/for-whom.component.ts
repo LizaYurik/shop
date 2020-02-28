@@ -45,7 +45,7 @@ export class ForWhomComponent implements OnInit {
       .subscribe(params => {
         this.page = this.formSteps.value.forWhom;
       });
-      this.router.navigate(['/what-holiday'], { queryParams: { "for_whom": this.page}, queryParamsHandling: "merge"});
+      this.router.navigate(['/steps/what-holiday'], { queryParams: { "for_whom": this.page}, queryParamsHandling: "merge"});
       // localStorage.setItem('industry', this.formSteps.value.industry)
       
   }

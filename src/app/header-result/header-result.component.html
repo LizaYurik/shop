@@ -1,14 +1,14 @@
 <header>
     <div class="wrapper">
         <div class="logo_block">
-            <a routerLink="/get-start">
+            <a routerLink="/steps/get-start">
                 <img src="./assets/img/logo.png" alt="">
             </a>
         </div>
         
         <div class="menu">
             
-            <a routerLink="/get-start" class="back_to_step" (click)='clearResult()'>Choose other</a>
+            <a routerLink="/steps/get-start" class="back_to_step" (click)='clearResult()'>Choose other</a>
 
             <div *ngIf="!authService.userData">
                 <a routerLink="/sing-in" class="btn">Вход</a>

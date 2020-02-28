@@ -1,8 +1,8 @@
-<app-header-steps></app-header-steps>
+
 <div class="wrapper">
     <div class="row">
         <div class="col-xs-12 title_block">
-            <a routerLink="/for-whom" class="back_arrow"></a>
+            <a routerLink="/steps/for-whom" class="back_arrow"></a>
             <h2 class="title">What holiday?</h2>
         </div>
     </div>
@@ -27,7 +27,7 @@
                     </div>
                 </div>
                 <button 
-                    routerLink="/price-step" 
+                    routerLink="/steps/price-step" 
                     type="submit" 
                     [disabled]="form.whatHoliday.errors?.required"
                     (click)="getFormValue();"

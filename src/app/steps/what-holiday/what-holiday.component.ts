@@ -90,7 +90,7 @@ export class WhatHolidayComponent implements OnInit {
       .subscribe(params => {
         this.page = this.formStepHoliday.value.whatHoliday
     });
-    this.router.navigate(['/price-step'], { queryParams: { "what_holiday": this.page}, queryParamsHandling: "merge" });
+    this.router.navigate(['/steps/price-step'], { queryParams: { "what_holiday": this.page}, queryParamsHandling: "merge" });
   }
 
 }

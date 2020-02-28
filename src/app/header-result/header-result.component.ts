@@ -19,13 +19,15 @@ export class HeaderResultComponent implements OnInit {
     public authService: AuthService,
     public ngZone: NgZone
     ) { 
+     
+      //console.log(this.authService.isLoggedIn)
     }
 
   ngOnInit() {
   }
 
   clearResult(){
-    this.router.navigate(['get-start']);
+    this.router.navigate(['/steps/get-start']);
     localStorage.clear();
   }
 

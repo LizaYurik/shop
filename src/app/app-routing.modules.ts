@@ -11,6 +11,8 @@ import { ProductListComponent } from './result/product-list/product-list.compone
 import { SingInComponent } from './auth/sing-in/sing-in.component';
 import { SingUpComponent } from './auth/sing-up/sing-up.component';
 import { ForgotPasswordComponent } from './auth/forgot-password/forgot-password.component';
+import { StepsComponent } from './steps/steps.component';
+
 
 const appRoutes : Routes =[
     {
@@ -26,20 +28,26 @@ const appRoutes : Routes =[
         component: SingUpComponent
     },
     {
-        path: "get-start",
-        component: StartComponent
-    },
-    {
-        path: "for-whom",
-        component: ForWhomComponent
-    },
-    {
-        path: "what-holiday",
-        component: WhatHolidayComponent
-    },
-    {
-        path: "price-step",
-        component: PriceStepComponent
+        path: 'steps',
+        component: StepsComponent,
+        children: [
+            {
+                path: "get-start",
+                component: StartComponent
+            },
+            {
+                path: "for-whom",
+                component: ForWhomComponent
+            },
+            {
+                path: "what-holiday",
+                component: WhatHolidayComponent
+            },
+            {
+                path: "price-step",
+                component: PriceStepComponent
+            },    
+        ]
     },
     {
         path: "result",

@@ -42,13 +42,13 @@ export class ResultComponent implements OnInit {
       localStorage.setItem('price-step', this.priceStep);
       
     }else {
-      this.router.navigate(['get-start'])
+      this.router.navigate(['/steps/get-start'])
     }
 
     const whatHoliday = this.whatHoliday;
 
     if(this.forWhom === ''){
-      this.router.navigate(['get-start'])
+      this.router.navigate(['/steps/get-start'])
     }
 
     if(this.whatHoliday){

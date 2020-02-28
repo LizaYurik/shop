@@ -2,7 +2,7 @@
 <div class="wrapper">
     <div class="row">
         <div class="col-xs-12 title_block">
-            <a routerLink="/get-start" class="back_arrow"></a>
+            <a routerLink="/steps/get-start" class="back_arrow"></a>
             <h2 class="title">Who needs a gift?</h2>
             <p class="description">This will help us figure out which result is right for you</p>
         </div>
@@ -51,7 +51,7 @@
                 </div>
 
                 <button 
-                    routerLink="/what-holiday" 
+                    routerLink="/steps/what-holiday" 
                     type="submit" 
                     [disabled]="form.forWhom.errors?.required"
                     (click)="getFormValue();"
